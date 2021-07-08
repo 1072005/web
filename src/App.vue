@@ -1,10 +1,12 @@
 <template>
   <div id="app">
 
+
     <Navbar />
     <Carousel />
     <Introduce />
     <Projectintrolduce  />
+   
   </div>
     
   
