@@ -1,8 +1,7 @@
 <template>
-  <div>
-    <b-navbar toggleable="lg" type="dark" >
+   <div class="b-container">
+    <b-navbar  toggleable="lg" type="dark" variant="info" >
       <b-navbar-brand href="#">Icon</b-navbar-brand>
-
       <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
 
       <b-collapse id="nav-collapse" is-nav>
@@ -52,6 +51,7 @@ export default {
 .navbar-nav {
   font-size: 1.563rem;
 }
+
 .nav-item {
   margin-right: 50px;
 }
