@@ -1,6 +1,6 @@
 <template>
   <div>
-    <b-navbar toggleable="lg" type="dark" variant="info">
+    <b-navbar toggleable="lg" type="dark" >
       <b-navbar-brand href="#">Icon</b-navbar-brand>
 
       <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
@@ -46,6 +46,9 @@ export default {
 };
 </script>
 <style>
+.navbar-expand-lg {
+  background-color: #4887BF ;
+}
 .navbar-nav {
   font-size: 1.563rem;
 }
