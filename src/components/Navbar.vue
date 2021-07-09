@@ -1,6 +1,6 @@
 <template>
-   <div class="b-container">
-    <b-navbar  toggleable="lg" type="dark" variant="info" >
+   <b-container fluid>
+    <b-navbar  toggleable="lg" type="dark" variant="info"  fixed="top">
       <b-navbar-brand href="#">Icon</b-navbar-brand>
       <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
 
@@ -24,7 +24,7 @@
         </b-navbar-nav>
       </b-collapse>
     </b-navbar>
-  </div>
+   </b-container>
 </template>
 
 <script>
@@ -53,7 +53,7 @@ export default {
 }
 
 .nav-item {
-  margin-right: 50px;
+  padding: 20px;
 }
 
 .navbar-dark .navbar-nav .nav-link {
@@ -64,10 +64,8 @@ export default {
   text-align: center !important ;
 }
 .dropdown-menu-right {
-  right: -50px !important;
+  right: -20px !important;
   left: auto !important;
 }
-.navbar-expand-lg {
-height: 100px;
-}
+
 </style>
