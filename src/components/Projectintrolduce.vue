@@ -1,11 +1,11 @@
 
 <template>
   <b-container fluid>
-    <div class="project_back_color ">
+    <div class="project_back_color">
       <h1>專案介紹</h1>
       <b-row>
-        <b-col xl="2" lg="2 " md="5 produce" sm="12">
-          <div class="inbox">
+        <b-col xl="2" lg="2 " md="5 produce" sm="12" >
+          <div class="inbox" >
             <img src="../assets/systemicon.png" alt="no picture" />
             <p>系統整合</p>
           </div>
@@ -22,18 +22,22 @@
             <p>人臉辨識</p>
           </div>
         </b-col>
-        <b-col xl="2" lg="2 " md="5 produce" sm="12">
+        <b-col xl="2" lg="2 " md="5 produce" sm="12" >
           <div class="inbox">
             <img src="../assets/robot.png" alt="no picture" />
             <p>客製化機器人</p>
           </div>
         </b-col>
-        <b-col xl="2" lg="2 " md="5 produce" sm="12">
-          <div class="inbox">
-            <img src="../assets/phone_android.png" alt="no picture" />
-            <p>APP開發</p>
-          </div>
+        
+        <b-col xl="2" lg="2 " md="5 produce" sm="12" >
+            <router-link to="/Appdevelopment">
+            <div class="inbox">
+              <img src="../assets/phone_android.png" alt="no picture" />
+              <p>APP開發</p>
+            </div>
+            </router-link>
         </b-col>
+        
       </b-row>
 
       <h1>成功專案</h1>
@@ -98,6 +102,7 @@ export default {
   padding-top: 20px;
 }
 .inbox p {
+  color: black;
   font-size: 2.5rem;
   padding-top: 25px;
 }
@@ -115,6 +120,11 @@ export default {
   border-radius: 5px;
   text-align: center;
 }
+
+a:-webkit-any-link {
+
+    text-decoration: none;
+}
 @media (max-width: 765px) {
   .produce {
     left: 0px;
@@ -123,7 +133,7 @@ export default {
     padding: 0px !important;
   }
 }
-@media (min-width: 768px)and (max-width: 992px) {
+@media (min-width: 768px) and (max-width: 992px) {
   .produce {
     left: 60px;
   }
@@ -137,7 +147,6 @@ export default {
   }
   .produce {
     left: 90px;
-    
   }
 }
 </style>
