@@ -1,7 +1,7 @@
 
 <template>
   <b-container fluid>
-    <div class="project_back_color">
+    <div class="project_back_color ">
       <h1>專案介紹</h1>
       <b-row>
         <b-col xl="2" lg="2 " md="5 produce" sm="12">

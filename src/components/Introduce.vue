@@ -1,5 +1,5 @@
 <template>
-<div class="b-container bkcolor">
+<div class="b-container bkcolor " id="mainpage">
   <h1>公司簡介</h1>
  
 
