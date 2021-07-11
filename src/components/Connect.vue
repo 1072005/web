@@ -1,6 +1,6 @@
 <template>
   <b-container fluid>
-    <div class="connect_back " id="contectus">
+    <div class="connect_back " id="connect">
 
     <h1>聯絡我們</h1>
     <b-row class="fontbox">

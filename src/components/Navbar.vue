@@ -6,20 +6,20 @@
 
       <b-collapse id="nav-collapse" is-nav>
         <b-navbar-nav class="ml-auto">
-          <b-nav-item right to="/">首頁</b-nav-item>
+          <b-nav-item right href="/">首頁</b-nav-item>
 
           <div @mouseover="onOver" @mouseout="onLeave">
             <b-nav-item-dropdown no-caret text="介紹" right ref="dropdown">
               
-                <b-dropdown-item href="#" >系統整合</b-dropdown-item>
-                <b-dropdown-item href="#">圖像辨識</b-dropdown-item>
-                <b-dropdown-item href="#">人臉辨識</b-dropdown-item>
-                <b-dropdown-item href="#">客製化機器人</b-dropdown-item>
+                <b-dropdown-item to="Systemintegration" >系統整合</b-dropdown-item>
+                <b-dropdown-item to="Imagerecognition">圖像辨識</b-dropdown-item>
+                <b-dropdown-item to="Facerecognition">人臉辨識</b-dropdown-item>
+                <b-dropdown-item to="Customizedrobot">客製化機器人</b-dropdown-item>
                 <b-dropdown-item to="Appdevelopment">APP開發</b-dropdown-item>
               
             </b-nav-item-dropdown>
           </div>
-          <b-nav-item right href="#contectus" >聯絡我們</b-nav-item>
+          <b-nav-item right to="#connect">聯絡我們</b-nav-item>
           <b-nav-item right> English/中 </b-nav-item>
         </b-navbar-nav>
       </b-collapse>
@@ -35,12 +35,11 @@ export default {
     onOver() {
       this.$refs.dropdown.visible = true;
     },
-    onLeave() {
-      
+    onLeave() {      
         this.$refs.dropdown.visible = false;
-        
-      
     },
+
+
   },
 };
 </script>
