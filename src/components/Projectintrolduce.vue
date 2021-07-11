@@ -5,28 +5,36 @@
       <h1>專案介紹</h1>
       <b-row>
         <b-col xl="2" lg="2 " md="5 produce" sm="12" >
+          <router-link to="/Systemintegration">
           <div class="inbox" >
             <img src="../assets/systemicon.png" alt="no picture" />
             <p>系統整合</p>
           </div>
+          </router-link>
         </b-col>
         <b-col xl="2" lg="2 " md="5 produce" sm="12">
+          <router-link to="/Imagerecognition">
           <div class="inbox">
             <img src="../assets/image_search.png" alt="no picture" />
             <p>圖像辨識</p>
           </div>
+          </router-link>
         </b-col>
         <b-col xl="2" lg="2 " md="5 produce" sm="12">
+          <router-link to="/Facerecognition">
           <div class="inbox">
             <img src="../assets/account_box.png" alt="no picture" />
             <p>人臉辨識</p>
           </div>
+          </router-link>
         </b-col>
         <b-col xl="2" lg="2 " md="5 produce" sm="12" >
+          <router-link to="/Customizedrobot">
           <div class="inbox">
             <img src="../assets/robot.png" alt="no picture" />
             <p>客製化機器人</p>
           </div>
+          </router-link>
         </b-col>
         
         <b-col xl="2" lg="2 " md="5 produce" sm="12" >
@@ -120,7 +128,6 @@ export default {
   border-radius: 5px;
   text-align: center;
 }
-
 a:-webkit-any-link {
 
     text-decoration: none;
