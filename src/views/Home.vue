@@ -5,6 +5,7 @@
     <Carousel />
     <Introduce />
     <Projectintrolduce  />
+    <Sucessproject  />
     <Connect  />
       
     </div>
@@ -18,6 +19,7 @@ import Navbar from '../components/Navbar.vue';
 import Carousel from '../components/Carousel.vue';
 import Introduce from '../components/Introduce.vue';
 import Projectintrolduce from '../components/Projectintrolduce.vue';
+import Sucessproject from '../components/Sucessproject.vue';
 import Connect from '../components/Connect.vue';
 
 
@@ -30,6 +32,7 @@ export default {
     Introduce,
     Projectintrolduce,
     Connect,
+    Sucessproject
   }
 }
 </script>
