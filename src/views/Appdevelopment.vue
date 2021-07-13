@@ -3,7 +3,7 @@
     <div id="nav">
       <Navbar />
       <Pagination />
-
+      <Sucessproject />
       
     </div>
   </div>
@@ -14,7 +14,7 @@
 <script>
 import Navbar from '../components/Navbar.vue';
 import Pagination from '../components/Pagination.vue';
-
+import Sucessproject from '../components/Sucessproject.vue'
 
 
 
@@ -22,7 +22,8 @@ export default {
   name: 'App',
   components: {
     Navbar,
-    Pagination
+    Pagination,
+    Sucessproject
   }
 }
 </script>

@@ -14,7 +14,7 @@ export default {
 <style>
 .bkcolor{
     background-color: white ;
-    height: 451px;
+    
 }
 h1, .h1{
     padding: 30px;

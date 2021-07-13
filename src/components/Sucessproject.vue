@@ -1,4 +1,3 @@
-
 <template>
   <b-container fluid>
     <div class="project_back_color">

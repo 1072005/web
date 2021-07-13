@@ -5,14 +5,16 @@
       <div class="linefont">APP開發</div>
     </div>
     <div class="mainbox">
-      <div class="graphics"></div>
-      <div class="linestright">
+      <div class="graphics">
+        <div class="linestright">
         <div class="marker"></div>
         <div class="techIntroduce">技術介紹</div>
 
         <div class="marker1"></div>
       <div class="techprocess">技術流程</div>
       </div>
+      </div>
+      
     </div>
   </b-container>
 </template>
@@ -25,6 +27,7 @@ export default {
 <style>
 .Pagination {
   padding-top: 120px;
+  height: 700px;
 }
 .linetop {
   padding-left: 180px;
@@ -40,16 +43,16 @@ export default {
   font-size: 48px;
 }
 .linestright {
-  position: fixed;
+  position: relative;
   width: 180px;
   height: 600px;
-  margin-top: -34px;
+  
   border-right: 2px solid #62accf;
   z-index: 3;
 }
 .marker {
-  position: fixed;
-  top: 360px;
+  position: relative;
+  top: 100px;
   left: 171px;
   width: 1rem;
   height: 1rem;
@@ -59,8 +62,8 @@ export default {
   z-index: 3;
 }
 .marker1 {
-  position: fixed;
-  top: 750px;
+  position: relative;
+  top: 400px;
   left: 171px;
   width: 1rem;
   height: 1rem;
@@ -70,20 +73,20 @@ export default {
   z-index: 3;
 }
 .techIntroduce{
-    position: fixed;
+    position: relative;
     font-size: 3rem;
     left: 200px;
     top: 325px;
 }
 .techprocess{
-    position: fixed;
+    position: relative;
     font-size: 3rem;
     left: 200px;
     top: 720px;
 }
 .graphics {
   margin-top: 70px;
-  position: fixed;
+  position: relative;
   width: 80%;
   height: 800px;
   clip-path: polygon(0 0, 100% 0%, 75% 100%, 0% 100%);
