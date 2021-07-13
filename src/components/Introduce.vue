@@ -1,6 +1,7 @@
 <template>
-<div class="b-container">
+<div class="b-container bkcolor " id="mainpage">
   <h1>公司簡介</h1>
+ 
 
 </div>
 </template>
@@ -11,9 +12,9 @@ export default {
 };
 </script>
 <style>
-.b-container{
-    background-color: gray;
-    height: 300px;
+.bkcolor{
+    background-color: white ;
+    height: 451px;
 }
 h1, .h1{
     padding: 30px;

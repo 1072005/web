@@ -58,6 +58,7 @@
          </hooper>
       <!-- </div>      -->
     <!-- </div> -->
+
   </b-container>
 </template>
 
@@ -82,6 +83,7 @@ export default {
 </script>
 
 <style>
+
 
 .slider {
   background-image: url("../assets/System.png");
@@ -207,3 +209,4 @@ export default {
   }
 }
 </style>
+
