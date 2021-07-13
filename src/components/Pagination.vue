@@ -28,7 +28,7 @@ export default {
 </script>
 <style>
 .Pagination {
-  padding-top: 130px;
+  padding-top: 200px;
   padding-bottom: 30px;
 }
 .linetop {
@@ -45,7 +45,7 @@ export default {
   max-width: 70%;
   max-height: 820px;
   height: 820px;
-  top: 195px;
+  top: 265px;
 }
 .line {
   display: inline-block;
@@ -59,7 +59,7 @@ export default {
 }
 .linestright {
   position: absolute;
-  top: 168px;
+  top: 238px;
   left: 162px;
   height: 420px;
 
@@ -122,10 +122,7 @@ export default {
   .marker1 {
     top: 300px;
   }
-  .backimg img {
-    width: 0%;
-    height: 0%;
-  }
+  
   .linefont {
     display: initial;
     vertical-align: initial;
@@ -138,6 +135,7 @@ export default {
     padding-top: 70px;
   }
   .linestright {
+    top: 160px;
     left: 0;
   }
   .graphics {
@@ -153,11 +151,16 @@ export default {
     left: 45px;
   }
 }
-@media (max-width: 1400px) {
-  .Pagination {
-  padding-top: 130px;
-  
+@media (max-width: 992px) {
+
+  .backimg img {
+    
+    width: 0%;
+    height: 0%;
+  }
 }
+@media (max-width: 1400px) {
+
   .backimg {
     padding-left: 0%;
   }
