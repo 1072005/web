@@ -15,7 +15,7 @@
                 <b-dropdown-item to="Imagerecognition">圖像辨識</b-dropdown-item>
                 <b-dropdown-item to="Facerecognition">人臉辨識</b-dropdown-item>
                 <b-dropdown-item to="Customizedrobot">客製化機器人</b-dropdown-item>
-                <b-dropdown-item to="Appdevelopment">APP開發</b-dropdown-item>
+                <b-dropdown-item to="/Appdevelopment">APP開發</b-dropdown-item>
               
             </b-nav-item-dropdown>
           </div>

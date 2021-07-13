@@ -1,5 +1,5 @@
 <template>
-  <b-container fluid>
+  <b-container fluid class="carousel">
     <!-- <div class="slide"> -->
       <!-- <div> -->
         <hooper>
@@ -84,7 +84,9 @@ export default {
 
 <style>
 
-
+.carousel{
+  padding-top: 5%;
+}
 .slider {
   background-image: url("../assets/System.png");
 }
