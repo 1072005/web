@@ -69,7 +69,7 @@ export default {
 </script>
 <style>
 .project_back_color {
-  background: #c6cfde;
+  background: #CEE6F1;
 }
 
 .inbox img {

@@ -29,7 +29,7 @@ export default {
 <style>
 .Pagination {
   padding-top: 130px;
-  height: 1030px;
+  padding-bottom: 30px;
 }
 .linetop {
   padding-left: 180px;
@@ -110,34 +110,54 @@ export default {
   z-index: 1;
 }
 @media (max-width: 765px) {
+  .Pagination {
+    padding-bottom: 0px;
+  }
   .line {
     display: none;
+  }
+  .marker {
+    top: 0px;
+  }
+  .marker1 {
+    top: 300px;
+  }
+  .backimg img {
+    width: 0%;
+    height: 0%;
   }
   .linefont {
     display: initial;
     vertical-align: initial;
-    font-size: 1rem;
+    font-size: 1.8rem;
   }
   .linetop {
-    padding-left: 50px;
+    padding-left: 30px;
   }
   .Pagination {
-    padding-top: 100px;
+    padding-top: 70px;
   }
   .linestright {
     left: 0;
   }
   .graphics {
     width: 100%;
+    height: 500px;
   }
   .techIntroduce {
     font-size: 1.5rem;
+    left: 45px;
   }
   .techprocess {
     font-size: 1.5rem;
+    left: 45px;
   }
 }
 @media (max-width: 1400px) {
+  .Pagination {
+  padding-top: 130px;
+  
+}
   .backimg {
     padding-left: 0%;
   }
