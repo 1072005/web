@@ -12,6 +12,7 @@
                 <p>系統整合</p>
               </div>
           </div>
+          
             </router-link>
         </b-col>
         <b-col xl="2" lg="2 " md="5 " sm="12">
@@ -61,6 +62,7 @@
 </template>
 
 <script>
+
 export default {
   name: "Projectintrolduce",
 };
