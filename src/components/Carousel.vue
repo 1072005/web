@@ -132,22 +132,30 @@ export default {
 
 @media (max-width: 765px) {  
   .intro {
-    width: 450px;
-    height: 290px;
+    /* width: 450px;
+    height: 290px; */
+    width: 95%;
+  }
+  .intro img{
+    height: 300px;
   }
   .intro h1{
     top: 0px;
-    left: 55px;
-    font-size: 78px;
+    left: 15%;
+    font-size: 55px;
   }
   .intro p{
     top: 130px;
-    left: 80px;
-    font-size: 22px;
+    left: 18%;
+    font-size: 20px;
   }
   .more_btn{
-    top: 400px;
-    left: 300px; 
+    top: 450px;
+    left: 50%; 
+    /* right: 10%; */
+  }
+  .more_btn img{
+    height: 90%;
   }
 }
 @media (min-width: 768px)and (max-width: 992px) {
