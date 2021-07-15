@@ -41,6 +41,7 @@ const routes = [
     name: '/Customizedrobot',
     component: Customizedrobot,
   },
+  
 
 ]
 

@@ -1,8 +1,14 @@
 <template>
   <b-container fluid>
-    <b-navbar toggleable="lg" type="dark" variant="info" fixed="top" class="navsize">
+    <b-navbar
+      toggleable="lg"
+      type="dark"
+      variant="info"
+      fixed="top"
+      class="navsize"
+    >
       <b-navbar-brand href="/">
-      <img src="../assets/WM-1.png" alt="">
+        <img src="../assets/WM-1.png" alt="" />
       </b-navbar-brand>
       <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
 
@@ -69,10 +75,9 @@ export default {
   right: -20px !important;
   left: auto !important;
 }
- @media (max-width: 765px) {
-   .navbar-brand img {
-  width: 100px;
+@media (max-width: 765px) {
+  .navbar-brand img {
+    width: 60px;
+  }
 }
-}
-
 </style>

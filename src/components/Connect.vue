@@ -74,7 +74,7 @@ export default {
 }
 .connecticon {
   position: absolute;
-  bottom: -100px;
+  bottom: -40px;
   height: auto;
   width: 50%;
 }
@@ -93,21 +93,26 @@ export default {
     bottom: -20px;
   }
   .connecticon {
-    width: 50%;
-    bottom: -15px;
-    left: 150px;
+    width: 30%;
+    bottom: 70px;
+    left: 210px;
   }
 }
 @media (min-width: 576px) and (max-width: 765px) {
   .connecticon {
     width: 100%;
-    bottom: 130px;
+    bottom: 80px;
     left: -60px;
   }
     .fbicon {
     left: 180px;
-    bottom: 50px;
+    bottom: 0px;
+    width: 60px !important;
+    height: 60px;
    
+  }
+  .fontbox {
+    font-size: 1rem;
   }
 }
 @media (min-width: 765px) and (max-width: 992px) {
