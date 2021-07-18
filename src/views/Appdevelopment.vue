@@ -3,7 +3,7 @@
     <div id="nav">
       <Navbar />
       <Pagination />
-      <Sucessproject />
+      <Developprocess />
       <Projectname />
       <Connect />
     </div>
@@ -13,18 +13,18 @@
 
 
 <script>
-import Navbar from '../components/Navbar.vue';
-import Pagination from '../components/Pagination.vue';
-import Sucessproject from '../components/Sucessproject.vue'
-import Projectname from '../components/Projectname.vue'
-import Connect from "../components/Connect.vue";
+import Navbar from '../components/Home/Navbar.vue';
+import Pagination from '../components/Systemintegration/Pagination.vue';
+import Developprocess from '../components/Home/Developprocess.vue'
+import Projectname from '../components/Systemintegration/Projectname.vue'
+import Connect from "../components/Home/Connect.vue";
 
 export default {
   name: 'App',
   components: {
     Navbar,
     Pagination,
-    Sucessproject,
+    Developprocess,
     Projectname,
     Connect
   }

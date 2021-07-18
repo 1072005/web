@@ -8,7 +8,7 @@
       class="navsize"
     >
       <b-navbar-brand href="/">
-        <img src="../assets/WM-1.png" alt="" />
+        <img src="../../assets/WM-1.png" alt="" />
       </b-navbar-brand>
       <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
 
@@ -63,7 +63,10 @@ export default {
 .nav-item {
   padding: 20px;
 }
-
+.nav-item:hover{
+  border-top:solid 4px  #62ACCF ;
+  
+}
 .navbar-dark .navbar-nav .nav-link {
   color: black !important;
 }
