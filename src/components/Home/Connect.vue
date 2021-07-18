@@ -18,7 +18,7 @@
           /></a>
         </b-col>
         <b-col md="4" sm="4" lg="4">
-          <img class="connecticon" src="../assets/WM-1.png" alt="" />
+          <img class="connecticon" src="../../assets/WM-1.png" alt="" />
         </b-col>
         <b-col md="12" sm="12" lg="12">
           <p>地址：320 桃園市中壢區明德路60號5樓</p>
@@ -78,12 +78,31 @@ export default {
   height: auto;
   width: 50%;
 }
+@media (max-width:300px) {
+ .connect_back {
+    font-size: 0.3rem;
+  }
+  .connect_back h1{
+    font-size: 1.5rem;
+    
+  }
+  .connecticon{
+    left: 175px !important;
+    bottom: 95px !important ;
+  }
+    .fbicon {
+    width: 40px !important;
+    height: 40px !important;
+    left: 200px !important;
+    bottom:40px !important;
+  }
+}
 @media (max-width: 576px) {
   .fontbox {
     padding-left: 15px;
   }
   .connect_back {
-    font-size: 0.3rem;
+    font-size: 0.1rem !important;
   }
   .fbicon {
     position: absolute;

@@ -7,16 +7,20 @@ import 'bootstrap-vue/dist/bootstrap-vue.css'
 import { faFacebookF } from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 import { library } from '@fortawesome/fontawesome-svg-core'
+import Carousel3d from 'vue-carousel-3d';
 import router from './router'
+
 library.add(faFacebookF)
 Vue.use(BootstrapVue)
 Vue.use(IconsPlugin)
-
+Vue.use(Carousel3d);
 Vue.component('font-awesome-icon', FontAwesomeIcon)
 Vue.config.productionTip = false
+
+
 
 new Vue({
   render: h => h(App),
   router,
-  
+
 }).$mount('#app')

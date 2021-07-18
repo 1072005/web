@@ -6,52 +6,52 @@
           <slide class="slider">
           <!-- <img src="../assets/System.png" alt=""> -->
             <div class="more_btn">
-              <img src="../assets/more.png">
+              <img src="../../assets/more.png">
             </div>
             <div class="intro">
               <h1>系統整合</h1>
               <p>以提升客戶需求為核心目標 <br>提供高品質、 <br>彈性的資訊服務</p>
-              <img src="../assets/Vector6.png" alt=" " >
+              <img src="../../assets/Vector6.png" alt=" " >
             </div>
           </slide>
           <slide class="slider" style="background-color:red">
             <div class="more_btn">
-              <img src="../assets/more.png">
+              <img src="../../assets/more.png">
             </div>
             <div class="intro">
               <h1>圖像辨識</h1>
               <p>以提升客戶需求為核心目標 <br>提供高品質、 <br>彈性的資訊服務</p>
-              <img src="../assets/Vector6.png" alt=" " >
+              <img src="../../assets/Vector6.png" alt=" " >
             </div>
           </slide>
           <slide class="slider">
             <div class="more_btn">
-              <img src="../assets/more.png">
+              <img src="../../assets/more.png">
             </div>
             <div class="intro">
               <h1>人臉辨識</h1>
               <p>以提升客戶需求為核心目標 <br>提供高品質、 <br>彈性的資訊服務</p>
-              <img src="../assets/Vector6.png" alt=" " >
+              <img src="../../assets/Vector6.png" alt=" " >
             </div>
           </slide>
           <slide class="slider">
             <div class="more_btn">
-              <img src="../assets/more.png">
+              <img src="../../assets/more.png">
             </div>
             <div class="intro">
               <h1>LineBot</h1>
               <p>以提升客戶需求為核心目標 <br>提供高品質、 <br>彈性的資訊服務</p>
-              <img src="../assets/Vector6.png" alt=" " >
+              <img src="../../assets/Vector6.png" alt=" " >
             </div>
           </slide>
           <slide class="slider">
             <div class="more_btn">
-              <img src="../assets/more.png">
+              <img src="../../assets/more.png">
             </div>
             <div class="intro">
               <h1>APP開發</h1>
               <p>以提升客戶需求為核心目標 <br>提供高品質、 <br>彈性的資訊服務</p>
-              <img src="../assets/Vector6.png" alt=" " >
+              <img src="../../assets/Vector6.png" alt=" " >
             </div>
           </slide>
           <hooper-pagination slot="hooper-addons"></hooper-pagination>
@@ -88,7 +88,7 @@ export default {
   padding-top: 5%;
 }
 .slider {
-  background-image: url("../assets/System.png");
+  background-image: url("../../assets/System.png");
 }
 .intro {
   position: relative;

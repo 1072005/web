@@ -11,7 +11,7 @@
 
 
 <script>
-import Navbar from '../components/Navbar.vue';
+import Navbar from '../components/Home/Navbar.vue';
 
 
 
