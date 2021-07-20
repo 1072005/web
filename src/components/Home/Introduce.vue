@@ -22,6 +22,7 @@ export default {
 }
 .introduce {
   position: relative;
+  
   height: 300px;
   padding-left: 5%;
   padding-top: 1%;
