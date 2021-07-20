@@ -7,7 +7,7 @@
           <router-link to="/Systemintegration">
             <div class="produce_1">
               <div class="inbox_1">
-                <img src="../../assets/FeverGuard.jpg" alt="no picture" />
+                <img src="../../assets/FeverGuard.png" alt="no picture" style="width:80%"/>
                 <p>熱像儀</p>
               </div>
             </div>
