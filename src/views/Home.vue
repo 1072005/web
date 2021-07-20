@@ -2,12 +2,12 @@
   <div id="app">
     <div id="nav">
       <Navbar />
-    <Carousel />
-    <Introduce />
-    <Projectintrolduce  />
-    <Sucessproject  />
-    <Connect  />
-      
+      <Carousel />
+      <Introduce />
+      <Developprocess />
+      <Havetechnology />
+      <Sucessproject />
+      <Connect />
     </div>
   </div>
 </template>
@@ -15,28 +15,27 @@
 
 
 <script>
-import Navbar from '../components/Navbar.vue';
-import Carousel from '../components/Carousel.vue';
-import Introduce from '../components/Introduce.vue';
-import Projectintrolduce from '../components/Projectintrolduce.vue';
-import Sucessproject from '../components/Sucessproject.vue';
-import Connect from '../components/Connect.vue';
-
-
+import Navbar from "../components/Home/Navbar.vue";
+import Carousel from "../components/Home/Carousel.vue";
+import Introduce from "../components/Home/Introduce.vue";
+import Havetechnology from "../components/Home/Havetechnology.vue";
+import Developprocess from "../components/Home/Developprocess.vue";
+import Sucessproject from "../components/Home/Sucessproject_carousel.vue"
+import Connect from "../components/Home/Connect.vue";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
     Navbar,
     Carousel,
     Introduce,
-    Projectintrolduce,
+    Havetechnology,
+    Sucessproject,
     Connect,
-    Sucessproject
-  }
-}
+    Developprocess,
+  },
+};
 </script>
 
 <style>
-  
 </style>
