@@ -5,8 +5,8 @@
       <div class="intro">        
         <div class="introtext">
           <h3>系統整合</h3>
-          <p>客製化API、Gateway系統，<br>豐富經驗整合各種系統，完成您的需求</p>
-          <input type="button" value="  了解更多  " class="more_btn">            
+          <p>客製化API、Gateway系統，<br>豐富經驗整合各種系統，完成您的需求</p>         
+          <router-link to="/Systemintegration" tag="button" class="more_btn">了解更多</router-link>       
         </div>  
         <img src="../../assets/Back.png" alt=" ">
       </div>
@@ -16,7 +16,7 @@
         <div class="introtext">
           <h3>圖像辨識</h3>
           <p>利用電腦對圖像進行處理、分析與理解，<br>識別各種不同的對像的技術。</p>
-          <input type="button" value="  了解更多  " class="more_btn">
+          <router-link to="/Imagerecognition" tag="button" class="more_btn">了解更多</router-link> 
         </div>
         <img src="../../assets/Back.png" alt=" ">
       </div>
@@ -26,7 +26,7 @@
         <div class="introtext">
           <h3>人臉辨識</h3>
           <p>透過採集以及擷取圖像人臉影像，<br>進行分析比對，準確辨認人像。 </p>
-          <input type="button" value="  了解更多  " class="more_btn">
+          <router-link to="/Facerecognition" tag="button" class="more_btn">了解更多</router-link> 
         </div>
         <img src="../../assets/Back.png" alt=" ">
       </div>
@@ -36,7 +36,7 @@
         <div class="introtext">
           <h3>LineBot</h3>
           <p>客製化獨一無二的Line機器人，<br>整合商業流程，提高商品成交率。</p>
-          <input type="button" value="  了解更多  " class="more_btn">
+          <router-link to="/Customizedrobot" tag="button" class="more_btn">了解更多</router-link> 
         </div>
         <img src="../../assets/Back.png" alt=" ">
       </div>
@@ -46,7 +46,7 @@
         <div class="introtext">
           <h3>APP開發</h3>
           <p>提供Android / ios <br>各項整合方案</p>
-          <input type="button" value="  了解更多  " class="more_btn">
+          <router-link to="/Appdevelopment" tag="button" class="more_btn">了解更多</router-link> 
         </div>
         <img src="../../assets/Back.png" alt=" ">
       </div>

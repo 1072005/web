@@ -45,7 +45,7 @@ export default {
   text-align: center;
 }
 .inbox_1 img {
-  width: 50%;
+  width: 50% !important;
   height: 50%;
 }
 .produce_1:hover {

@@ -41,8 +41,8 @@ export default {
 .connect_back {
   background-color: #071c35;
   color: white;
-
-  font-size: 2rem;
+  
+  font-size: 1.8rem;
 }
 .fbicon {
   position: relative;

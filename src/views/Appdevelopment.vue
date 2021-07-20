@@ -2,9 +2,10 @@
   <div id="app">
     <div id="nav">
       <Navbar />
-      <Pagination />
-      <Developprocess />
-      <Projectname />
+      <PaginationApp />
+      <SucessApps />
+      <Appname />
+      <Appintroduce />
       <Connect />
     </div>
   </div>
@@ -13,24 +14,25 @@
 
 
 <script>
-import Navbar from '../components/Home/Navbar.vue';
-import Pagination from '../components/Systemintegration/Pagination.vue';
-import Developprocess from '../components/Home/Developprocess.vue'
-import Projectname from '../components/Systemintegration/Projectname.vue'
+import Navbar from "../components/Home/Navbar.vue";
+import PaginationApp from "../components/Appdevelopment/Paginationapp.vue";
+import SucessApps from "../components/Appdevelopment/Sucess_app.vue";
+import Appname from "../components/Appdevelopment/Appname.vue";
+import Appintroduce from "../components/Appdevelopment/Appintroduce.vue";
 import Connect from "../components/Home/Connect.vue";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
     Navbar,
-    Pagination,
-    Developprocess,
-    Projectname,
-    Connect
-  }
-}
+    PaginationApp,
+    SucessApps,
+    Appname,
+    Appintroduce,
+    Connect,
+  },
+};
 </script>
 
 <style>
-  
 </style>

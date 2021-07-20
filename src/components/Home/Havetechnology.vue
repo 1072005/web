@@ -38,7 +38,7 @@
           <router-link to="/Customizedrobot">
             <div class="produce">
               <div class="inbox">
-                <img src="../../assets/robot.png" alt="no picture" />
+                <img src="../../assets/roboticon.png" alt="no picture" />
                 <p>客製化機器人</p>
               </div>
             </div>
