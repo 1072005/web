@@ -8,7 +8,7 @@
           <p>客製化API、Gateway系統，<br>豐富經驗整合各種系統，完成您的需求</p>
           <input type="button" value="  了解更多  " class="more_btn">            
         </div>  
-        <img src="../assets/Back.png" alt=" ">
+        <img src="../../assets/Back.png" alt=" ">
       </div>
     </slide>
     <slide class="slider" id="Img_slider">
@@ -18,7 +18,7 @@
           <p>利用電腦對圖像進行處理、分析與理解，<br>識別各種不同的對像的技術。</p>
           <input type="button" value="  了解更多  " class="more_btn">
         </div>
-        <img src="../assets/Back.png" alt=" ">
+        <img src="../../assets/Back.png" alt=" ">
       </div>
     </slide>
     <slide class="slider" id="Face_slider">
@@ -28,7 +28,7 @@
           <p>透過採集以及擷取圖像人臉影像，<br>進行分析比對，準確辨認人像。 </p>
           <input type="button" value="  了解更多  " class="more_btn">
         </div>
-        <img src="../assets/Back.png" alt=" ">
+        <img src="../../assets/Back.png" alt=" ">
       </div>
     </slide>
     <slide class="slider" id="Bot_slider">
@@ -38,7 +38,7 @@
           <p>客製化獨一無二的Line機器人，<br>整合商業流程，提高商品成交率。</p>
           <input type="button" value="  了解更多  " class="more_btn">
         </div>
-        <img src="../assets/Back.png" alt=" ">
+        <img src="../../assets/Back.png" alt=" ">
       </div>
     </slide>
     <slide class="slider" id="App_slider">
@@ -48,7 +48,7 @@
           <p>提供Android / ios <br>各項整合方案</p>
           <input type="button" value="  了解更多  " class="more_btn">
         </div>
-        <img src="../assets/Back.png" alt=" ">
+        <img src="../../assets/Back.png" alt=" ">
       </div>
     </slide>
     <hooper-pagination slot="hooper-addons"></hooper-pagination>
@@ -78,19 +78,19 @@ export default {
 
 <style>
 #System_slider {
-  background-image: url("../assets/BG_System.png");
+  background-image: url("../../assets/BG_System.png");
 }
 #Img_slider {
-  background-image: url("../assets/BG_Image.png");
+  background-image: url("../../assets/BG_Image.png");
 }
 #Face_slider {
-  background-image: url("../assets/BG_Face.png");
+  background-image: url("../../assets/BG_Face.png");
 }
 #Bot_slider {
-  background-image: url("../assets/BG_LineBot.png");
+  background-image: url("../../assets/BG_LineBot.png");
 }
 #App_slider {
-  background-image: url("../assets/BG_APP.png");
+  background-image: url("../../assets/BG_APP.png");
 }
 
 .introtext{
