@@ -8,8 +8,8 @@ import { faFacebookF } from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 import { library } from '@fortawesome/fontawesome-svg-core'
 import Carousel3d from 'vue-carousel-3d';
-import router from './router'
-
+import router from './router';
+import 'typeface-roboto/index.css';
 library.add(faFacebookF)
 Vue.use(BootstrapVue)
 Vue.use(IconsPlugin)

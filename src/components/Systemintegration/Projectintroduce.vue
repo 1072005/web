@@ -62,7 +62,7 @@ export default {
 </script>
 <style>
 .tabcontain {
-  width: 80%;
+  width: 80%; 
 }
 .nav-pills {
   background-color: #cee6f1;
@@ -98,6 +98,7 @@ export default {
 }
 .card-body {
   text-align: center;
+  padding: 50px;
 }
 @media (max-width: 400px) {
   .tabcontain {
@@ -164,24 +165,37 @@ width: 100%;
 @media (min-width: 768px) and (max-width: 992px) {
   .tab-pane p {
     padding-top: 25px;
+    padding-left: 2px;
     font-size: 1.3rem;
   }
   .tabcontain {
-    width: 75%;
+    width: 80%;
   }
   .tab-pane img {
   width: 90%;
+}
+.nav-pills .nav-link {
+  
+  font-size: 0.9rem;
   
 }
 }
 @media (min-width: 992px) and (max-width: 1225px) {
   .tab-pane p {
     font-size: 1.4rem;
+    
   }
+  .tabcontain {
+    width: 73%;
+  }
+ 
+  
+
 }
 @media (min-width: 1225px) and (max-width: 1400px) {
   .tab-pane p {
     font-size: 1.7rem;
   }
+  
 }
 </style>
