@@ -1,64 +1,58 @@
 <template>
-  <b-container fluid class="carousel">
-    <!-- <div class="slide"> -->
-      <!-- <div> -->
-        <hooper>
-          <slide class="slider">
-          <!-- <img src="../assets/System.png" alt=""> -->
-            <div class="more_btn">
-              <img src="../../assets/more.png">
-            </div>
-            <div class="intro">
-              <h1>系統整合</h1>
-              <p>以提升客戶需求為核心目標 <br>提供高品質、 <br>彈性的資訊服務</p>
-              <img src="../../assets/Vector6.png" alt=" " >
-            </div>
-          </slide>
-          <slide class="slider" style="background-color:red">
-            <div class="more_btn">
-              <img src="../../assets/more.png">
-            </div>
-            <div class="intro">
-              <h1>圖像辨識</h1>
-              <p>以提升客戶需求為核心目標 <br>提供高品質、 <br>彈性的資訊服務</p>
-              <img src="../../assets/Vector6.png" alt=" " >
-            </div>
-          </slide>
-          <slide class="slider">
-            <div class="more_btn">
-              <img src="../../assets/more.png">
-            </div>
-            <div class="intro">
-              <h1>人臉辨識</h1>
-              <p>以提升客戶需求為核心目標 <br>提供高品質、 <br>彈性的資訊服務</p>
-              <img src="../../assets/Vector6.png" alt=" " >
-            </div>
-          </slide>
-          <slide class="slider">
-            <div class="more_btn">
-              <img src="../../assets/more.png">
-            </div>
-            <div class="intro">
-              <h1>LineBot</h1>
-              <p>以提升客戶需求為核心目標 <br>提供高品質、 <br>彈性的資訊服務</p>
-              <img src="../../assets/Vector6.png" alt=" " >
-            </div>
-          </slide>
-          <slide class="slider">
-            <div class="more_btn">
-              <img src="../../assets/more.png">
-            </div>
-            <div class="intro">
-              <h1>APP開發</h1>
-              <p>以提升客戶需求為核心目標 <br>提供高品質、 <br>彈性的資訊服務</p>
-              <img src="../../assets/Vector6.png" alt=" " >
-            </div>
-          </slide>
-          <hooper-pagination slot="hooper-addons"></hooper-pagination>
-         </hooper>
-      <!-- </div>      -->
-    <!-- </div> -->
-
+  <b-container fluid>
+  <hooper>
+    <slide class="slider" id="System_slider">
+      <div class="intro">        
+        <div class="introtext">
+          <h3>系統整合</h3>
+          <p>客製化API、Gateway系統，<br>豐富經驗整合各種系統，完成您的需求</p>
+          <input type="button" value="  了解更多  " class="more_btn">            
+        </div>  
+        <img src="../../assets/Back.png" alt=" ">
+      </div>
+    </slide>
+    <slide class="slider" id="Img_slider">
+      <div class="intro">
+        <div class="introtext">
+          <h3>圖像辨識</h3>
+          <p>利用電腦對圖像進行處理、分析與理解，<br>識別各種不同的對像的技術。</p>
+          <input type="button" value="  了解更多  " class="more_btn">
+        </div>
+        <img src="../../assets/Back.png" alt=" ">
+      </div>
+    </slide>
+    <slide class="slider" id="Face_slider">
+      <div class="intro">
+        <div class="introtext">
+          <h3>人臉辨識</h3>
+          <p>透過採集以及擷取圖像人臉影像，<br>進行分析比對，準確辨認人像。 </p>
+          <input type="button" value="  了解更多  " class="more_btn">
+        </div>
+        <img src="../../assets/Back.png" alt=" ">
+      </div>
+    </slide>
+    <slide class="slider" id="Bot_slider">
+      <div class="intro">
+        <div class="introtext">
+          <h3>LineBot</h3>
+          <p>客製化獨一無二的Line機器人，<br>整合商業流程，提高商品成交率。</p>
+          <input type="button" value="  了解更多  " class="more_btn">
+        </div>
+        <img src="../../assets/Back.png" alt=" ">
+      </div>
+    </slide>
+    <slide class="slider" id="App_slider">
+      <div class="intro">
+        <div class="introtext">
+          <h3>APP開發</h3>
+          <p>提供Android / ios <br>各項整合方案</p>
+          <input type="button" value="  了解更多  " class="more_btn">
+        </div>
+        <img src="../../assets/Back.png" alt=" ">
+      </div>
+    </slide>
+    <hooper-pagination slot="hooper-addons"></hooper-pagination>
+    </hooper>
   </b-container>
 </template>
 
@@ -83,139 +77,107 @@ export default {
 </script>
 
 <style>
+#System_slider {
+  background-image: url("../../assets/BG_System.png");
+}
+#Img_slider {
+  background-image: url("../../assets/BG_Image.png");
+}
+#Face_slider {
+  background-image: url("../../assets/BG_Face.png");
+}
+#Bot_slider {
+  background-image: url("../../assets/BG_LineBot.png");
+}
+#App_slider {
+  background-image: url("../../assets/BG_APP.png");
+}
 
-.carousel{
-  padding-top: 5%;
-}
-.slider {
-  background-image: url("../../assets/System.png");
-}
-.intro {
-  position: relative;
-  left: 4.03%;
-  right: 47.78%;
-  top: 0px;
-  bottom: 23.14%;
-}
-.intro img{
-  width: 100%;
-}
-.intro h1{
+.introtext{
   position: absolute;
-  left: 130px;
+  width: 432px;
+  height: 241.77px;
+  color: #071C35;
+}
+.introtext h3{
+  position: relative;
   font-family: Roboto;
   font-weight: bold;
-  font-size: 80px;
-  line-height: 112px;
-  text-align: center;
-
-  color: #FFFFFF;
+  font-size: 64px;
+  left: 0px;
 }
-.intro p{
-  position: absolute;
-  left: 110px;
+.introtext p{
+  position: relative;
   font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
-  line-height: 42px;
-  color: #FFFFFF;
+  font-weight: bold;
+  font-size: 24px;
 }
 .more_btn{
-  position: relative;
-  height: 100px;
-  width: 100px;
+  background: #FFFFFF;
+  border: 1px solid #62ACCF;
+  color: #071C35;
+  box-sizing: border-box;
+  font-size: 18px;  
+  width: 150px;
+  height: 45px;
 }
-.more_btn img {
-  opacity: 80%;
-}
-.more_btn img:hover {
-  opacity: 100%;
+.more_btn:hover{
+  background: #62ACCF;
+  border: 1px solid #62ACCF;
+  color: #FFFFFF;
+  box-sizing: border-box;
 }
 
+
 @media (max-width: 765px) {  
-  .intro {
-    /* width: 450px;
-    height: 290px; */
-    width: 95%;
+  .slider{
+    margin-top: 5%;
   }
   .intro img{
-    height: 300px;
+    width: 100%;
+    height: 600px;
   }
-  .intro h1{
-    top: 0px;
-    left: 15%;
-    font-size: 55px;
+  .introtext{
+    margin-top: 200px;
+    margin-left: 27%;
+    width: 43%;
   }
-  .intro p{
-    top: 130px;
-    left: 18%;
-    font-size: 20px;
+  .introtext h3{
+    font-size: 40px;
   }
-  .more_btn{
-    top: 450px;
-    left: 50%; 
-    /* right: 10%; */
-  }
-  .more_btn img{
-    height: 90%;
+  .introtext p{
+    font-size: 12px;
   }
 }
 @media (min-width: 768px)and (max-width: 992px) {
-  .intro {
-    width: 600px;
-    height: 410px;
+  .slider{
+    margin-top: 5%;
   }
-  .intro h1{
-    top: 10px;
+  .intro img{
+    width: 100%;
+    height: 600px;
   }
-  .intro p{
-    top: 180px;
-    font-size: 30px;
-  }
-  .more_btn{
-    top: 400px;
-    left: 450px;    
+  .introtext{
+    margin-top: 100px;
+    margin-left: 30%;
+    width: 40%;
   }
 }
 @media (min-width: 992px) and (max-width: 1400px) {
-  .intro {
-    width: 660px;
-    height: 410px;
+  .slider{
+    margin-top: 8%;
   }
-  .intro h1{
-    top: 30px;
-    font-size: 96px;
+  .introtext{
+    margin-top: 100px;
+    margin-left: 280px;
   }
-  .intro p{
-    top: 230px;
-    font-size: 36px;
-  }
-  .more_btn{
-    max-width: 100%;
-    top: 400px;
-    left: 700px;
-  }
-
 }
 
 
 @media (min-width: 1400px){
-  .intro {
-    width: 660px;
-    height: 410px;
-  }
-  .intro h1{
-    top: 30px;
-    font-size: 96px;
-  }
-  .intro p{
-    top: 230px;
-    font-size: 36px;
-  }
-  .more_btn{
-    max-width: 100%;
-    top: 400px;
-    left: 1100px;
+  .introtext{
+    margin-top: 200px;
+    margin-left: 280px;
   }
 }
 </style>
