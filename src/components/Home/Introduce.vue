@@ -1,6 +1,6 @@
 <template>
   <div class="b-container bkcolor" id="mainpage">
-    <h1>公司簡介</h1>
+    <h1>關於我們</h1>
     <div class="introduce">
       你的需求，我們在聽。<br />
       麥威科技累積多年經驗，善於為客戶打造專屬於企業的客製化數位產品。<br />
@@ -30,6 +30,7 @@ export default {
 h1,
 .h1 {
   padding: 30px;
+  font-weight: bolder;
 }
 .background_gif {
   position: relative;

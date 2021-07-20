@@ -5,6 +5,7 @@
       <Pagination />
       <Sucesssystem />
       <Projectname />
+      <Projectintroduce />
       <Connect />
     </div>
   </div>
@@ -18,6 +19,7 @@ import Pagination from "../components/Systemintegration/Pagination.vue";
 import Connect from "../components/Home/Connect.vue";
 import Sucesssystem from "../components/Systemintegration/Sucess_system.vue";
 import Projectname from "../components/Systemintegration/Projectname.vue";
+import Projectintroduce from "../components/Systemintegration/Projectintroduce.vue";
 export default {
   name: "App",
   components: {
@@ -25,7 +27,8 @@ export default {
     Pagination,
     Connect,
     Sucesssystem,
-    Projectname
+    Projectname,
+    Projectintroduce
   },
 };
 </script>
