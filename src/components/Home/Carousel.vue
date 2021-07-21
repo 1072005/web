@@ -1,6 +1,6 @@
 <template>
   <b-container fluid>
-  <hooper>
+  <hooper :infiniteScroll="true" :autoPlay="true" :playSpeed="3000">
     <slide class="slider" id="System_slider">
       <div class="intro">        
         <div class="introtext">
